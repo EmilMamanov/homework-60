@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+li {
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +45,8 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.chat-block {
+  display: flex;
 }
