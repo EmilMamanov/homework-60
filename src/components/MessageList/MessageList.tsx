@@ -8,8 +8,8 @@ interface MessageListProps {
 
 const MessageList: React.FC<MessageListProps> = ({ messages }) => {
     return (
-        <div>
-            <h2>Chat Messages</h2>
+        <div className="message-block">
+            <h2 className="chat-title">Chat Messages</h2>
             <ul>
                 {messages.map((message) => (
                     <li key={message._id}>
